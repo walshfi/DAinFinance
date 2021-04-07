@@ -13,6 +13,40 @@ print(company_1)
 # Test equality
 test_company = 'apple'
 print(company_1==test_company)
+# Create year_1
+year_1 = 2017
+print(year_1)
+# Create revenue_1
+revenue_1 = 229.23
+print(revenue_1)
 
+# Type of company_1
+print(type(company_1))
 
+# Type of year_1
+print(type(year_1))
+
+# Type of revenue_1
+print(type(revenue_1))
+
+# Test equality
+test_company = 'apple'
+print(company_1==test_company)
+
+# Create revenue_2
+revenue_2 = 220.93
+print(revenue_2)
+
+# Compare revenue_1 and revenue_2
+print(revenue_1>revenue_2)
+
+# Update data types
+year_1_str = str(year_1)
+revenue_1_str = str(revenue_1)
+
+# Create a complete sentence combining only the string data types
+sentence = 'The revenue of ' + company_1 + ' in ' + year_1_str + ' was $' + revenue_1_str + ' billion.'
+
+# Print sentence
+print(sentence)
 
